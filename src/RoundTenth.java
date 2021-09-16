@@ -9,8 +9,8 @@ public class RoundTenth {
         double decimal = scan.nextDouble();
         double multiplied = decimal*10;
         double roundedNum = (int)(multiplied+.5);
-        double answer = (double)(roundedNum/10);
-        System.out.print(decimal + " rounded to the nearest tenth is " + roundedNum);
+        double answer = (roundedNum/10.0);
+        System.out.print(decimal + " rounded to the nearest tenth is " + answer);
 
         // Create a Scanner object
 
