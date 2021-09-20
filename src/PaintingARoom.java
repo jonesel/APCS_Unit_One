@@ -20,7 +20,7 @@ public class PaintingARoom {
         final int WINDOWAREA = 10;
         int subtractedArea2 = window*WINDOWAREA;
         double sqft = area-(subtractedArea1+subtractedArea2);
-        final int SQFTPERGALLON = 250;
+        final int SQFTPERGALLON = 350;
         double gallon = sqft/SQFTPERGALLON;
         double a = gallon*10;
         int b = 10;
